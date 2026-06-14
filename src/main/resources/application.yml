@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ekart
+    username: root
+    password: Priyanka@123
+  jpa:
+    properties.hibernate-dialect: org.hibernate.dialect.MySQLDialect.class
+    hibernate.ddl-auto: update
